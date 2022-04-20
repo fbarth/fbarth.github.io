@@ -23,7 +23,7 @@ body {
 	background: #E7E7E2 url('img/body.jpg') no-repeat center top;
 	color: #444;
 	font: normal 62.5% Tahoma,sans-serif;
-	padding-top: 20px;
+	padding-top: 36px;
 }
 
 p,code,ul {padding-bottom: 1.2em;}
@@ -92,13 +92,13 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 .header .title .sitename a {
 	border-bottom: 1px dashed #657382;
 	color: #FFF;
-	font: normal 3em sans-serif;
+	font: normal 4em sans-serif;
 	padding-bottom: 2px;
 	text-decoration: none;
 }
 .header .title a:hover {border-color: #F60;}
 .header .title .slogan {
-	font: normal 1.1em Verdana,sans-serif;
+	font: normal 2.2em Verdana,sans-serif;
 	padding-top: 6px;
 }
 
@@ -106,7 +106,7 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 .path {
 	background: #949490;
 	color: #FFF;
-	font: normal 1.1em Verdana,sans-serif;
+	font: normal 1.3em Verdana,sans-serif;
 	padding: 8px 12px;
 }
 .path a {
@@ -132,18 +132,23 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 }
 .content .descr {
 	color: #664;
-	font-size: 0.9em;
+	font-size: 1.9em;
 	margin-bottom: 6px;
 }
 .content li {
 	list-style: url(img/li.gif);
+	font-size: 1.2em;  /*mudei aqui - antes nao tinha fonte*/
 	margin-left: 18px;
 }
-.content p {font-family: "Lucida Sans Unicode",sans-serif;}
+.content p {
+	font-family: "Lucida Sans Unicode",sans-serif;
+	font-size: 1.2em; /*mudei aqui - antes nao tinha fonte*/
+}
 
 /* navigation */
 .navigation {
 	float: left;
+	font-size: 1.2em; /*mudei aqui - antes nao tinha fonte*/
 	width: 210px;
 }
 .navigation h2 {
@@ -155,9 +160,9 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 }
 .navigation ul {
 	padding: 0;
-	border-top: 1px solid #EAEADA;
+	border-top: 2px solid #EAEADA;
 }
-.navigation li {border-bottom: 1px solid #EAEADA;}
+.navigation li {border-bottom: 2px solid #EAEADA;}
 .navigation li a {
 	font-size: 1.1em;
 	color: #554;
