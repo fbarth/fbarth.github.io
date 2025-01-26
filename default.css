@@ -22,7 +22,7 @@ a:hover {color: #06C;}
 body {
 	background: #E7E7E2 url('img/body.jpg') no-repeat center top;
 	color: #444;
-	font: normal 62.5% Tahoma,sans-serif;
+	font: normal 80.5% Tahoma,sans-serif;
 	padding-top: 36px;
 }
 
@@ -70,7 +70,7 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 	font-size: 1.2em;
 	margin: 0 auto;
 	padding: 10px;
-	width: 780px;
+	width: 1200px;
 }
 
 .outer-container {
@@ -80,7 +80,7 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 
 /* headere & title */
 .header {
-	background: #222 url('img/header.jpg') no-repeat;
+	background: #222 url('img/header.jpg') repeat;
 	height: 160px;
 	margin-bottom: 5px;
 	text-align: center;
@@ -122,13 +122,13 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 .main {
 	background: url(img/main.gif) repeat-y;
 	border-top: 4px solid #FFF;
-	padding: 8px 12px 0 0;
+	padding: 8px 15px 0 0;
 }
 
 /* content */
 .content {
 	float: right;
-	width: 538px;
+	width: 950px;
 }
 .content .descr {
 	color: #664;
