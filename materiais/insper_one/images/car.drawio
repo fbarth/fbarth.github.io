@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="H0Dhfcu5mxjPDR07bFOz" name="Page-1">
+        <mxGraphModel dx="1066" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Imagem&lt;br&gt;&lt;br&gt;Informação dos radares&lt;/font&gt;" style="text;strokeColor=none;align=right;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="60" y="140" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;fontSize=18;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Código&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="125" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Posição dos outros carros" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="490" y="140" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rotation=-165;" vertex="1" parent="1">
+                    <mxGeometry x="332.69" y="194.65" width="30" height="62.9" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Algoritmo&lt;/b&gt;: sequência de instruções que manipulam dados&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="222" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;p style=&quot;line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;t = False&lt;br style=&quot;&quot;&gt;while t:&lt;br style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;new_state, r, t = env.step(action)&lt;br style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;q_table[state,action] = r * alpha&lt;br style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;state = new_state&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;print(hello)&lt;br style=&quot;&quot;&gt;send_to_file(env)&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="261.55" width="200" height="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
