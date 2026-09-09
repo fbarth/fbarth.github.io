@@ -87,17 +87,29 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 	text-align: center;
 }
 .language-switch {
-	position: absolute;
-	right: 16px;
+	position: absolute !important;
 	top: 12px;
+	right: 16px;
+	left: auto;
+	z-index: 10;
+	display: block;
+	margin: 0;
+	padding: 6px 9px;
+	background: #111;
+	border: 1px solid #AAA;
 	color: #FFF;
 	font: normal 1em Verdana,sans-serif;
+	line-height: 1.2;
+	text-align: right;
+	white-space: nowrap;
 }
 .language-switch a {
 	color: #FFF;
+	font-weight: bold;
 	text-decoration: underline;
 }
-.language-switch .current-language {font-weight: bold;}
+.language-switch a:hover {color: #FFD34E;}
+.language-switch .current-language {color: #FFF; font-weight: bold;}
 .header .title {
 	color: #FFF;
 	padding-top: 50px;
