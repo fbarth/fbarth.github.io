@@ -38,6 +38,50 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://fbarth.net.br/en/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/projetos.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/publicacoes.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/materiais.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/contatos.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/materiais/disciplinas.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/materiais/ferramentas.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/materiais/codigos.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/materiais/palestras.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://fbarth.net.br/en/materiais/textos.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://fbarth.net.br/projetos/rl.html</loc>
   <lastmod>2025-04-03T16:56:42+00:00</lastmod>
   <priority>0.64</priority>

@@ -83,8 +83,21 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
 	background: #222 url('img/header.jpg') repeat;
 	height: 160px;
 	margin-bottom: 5px;
+	position: relative;
 	text-align: center;
 }
+.language-switch {
+	position: absolute;
+	right: 16px;
+	top: 12px;
+	color: #FFF;
+	font: normal 1em Verdana,sans-serif;
+}
+.language-switch a {
+	color: #FFF;
+	text-decoration: underline;
+}
+.language-switch .current-language {font-weight: bold;}
 .header .title {
 	color: #FFF;
 	padding-top: 50px;
